@@ -1,0 +1,4 @@
+# split command used to break up the file into 1.4 mb pieces to fit on a floppy
+# pieces are named xaa, xab,xac, etc.
+# reassemble by using cat xa* > <filename>
+split -b 140000 <filename> 
