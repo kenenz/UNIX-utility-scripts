@@ -1,0 +1,3 @@
+# Easy and safe way to clear out a logfile, even while it's in use
+
+cat /dev/null > <targetfile>
