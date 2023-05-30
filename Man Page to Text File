@@ -1,2 +1,2 @@
 # Pretty simple, but useful if you need to print a man page or keep it handy
-man <command> | col -b > <output file.txt>
+man <command> | col -b > <outputfile.txt>
