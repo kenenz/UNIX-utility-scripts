@@ -1,0 +1,2 @@
+# This preserves the formatting of the Man Page and generates a pdf as its output
+man -t <command> | ps2pdf - <outputfile.pdf>
