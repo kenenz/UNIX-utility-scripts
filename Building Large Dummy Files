@@ -1,0 +1,2 @@
+# Create a dummy file of 1 Gb by specifying block size of 1 MB x 1024 blocks
+dd if=/dev/null of=<filename> bs=1m count=1024
